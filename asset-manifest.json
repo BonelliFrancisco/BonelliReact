@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/BonelliReact/static/css/main.502fffc6.css",
+    "main.js": "/BonelliReact/static/js/main.0691ce4d.js",
+    "static/js/787.ccb663a9.chunk.js": "/BonelliReact/static/js/787.ccb663a9.chunk.js",
+    "index.html": "/BonelliReact/index.html",
+    "main.502fffc6.css.map": "/BonelliReact/static/css/main.502fffc6.css.map",
+    "main.0691ce4d.js.map": "/BonelliReact/static/js/main.0691ce4d.js.map",
+    "787.ccb663a9.chunk.js.map": "/BonelliReact/static/js/787.ccb663a9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.502fffc6.css",
+    "static/js/main.0691ce4d.js"
+  ]
+}
