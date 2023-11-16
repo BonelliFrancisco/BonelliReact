@@ -1,0 +1,28 @@
+.detalle-container {
+    background-color: #3f2893; /* Azul mediano oscuro */
+    color: #ffffff; 
+    padding: 30px;
+    margin: 30px;
+    border-radius: 8px;
+  }
+  
+  .detalle-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .detalle-container p {
+    margin-bottom: 20px;
+  }
+  
+
+  .detalle-container a:hover {
+    text-decoration: underline;
+  }
+  
+  .detalle-container p#id {
+    color: red;
+  }
+  
+  .detalle-container p#marca {
+    color: rgb(0, 248, 0);
+  }

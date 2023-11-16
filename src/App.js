@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+import ListaProductos from "./componentes/Listaproductos/ListaProductos";
+import DetalleProducto from "./componentes/Detalleproducto/DetalleProducto";
+import Registro from "./componentes/registro/registro";
+import Login from "./componentes/login/login";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter basename="/BonelliReact">
+      <Routes>
+        <Route path="/" element={<ListaProductos />} />
+        <Route path="/listaProductos" element={<ListaProductos />} />
+        <Route path="/DetalleProducto/:id" element={<DetalleProducto />} />
+        <Route path="/registro" element={<Registro />} />
+        <Route path="/login" element={<Login />} />
+
+        
+      </Routes>
+      
+      </BrowserRouter>
+    </>
   );
 }
 
